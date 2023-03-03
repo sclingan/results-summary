@@ -166,7 +166,10 @@ li {
 }
 
 span {
-  padding-left: 7rem;
   color: var(--text-gray-blue);
+}
+
+img {
+  display: inline;
 }
 
