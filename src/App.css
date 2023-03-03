@@ -68,6 +68,7 @@ body {
   font-size: var(--font-size);
   font-weight: var(--fw-500);
   background-color: grey;
+  position: relative;
 }
 /* try using something other than flex to center card */
 .App {
@@ -75,6 +76,11 @@ body {
   flex-direction: column;
   max-width: 370px;
   background-color: var(--text-white);
+  /* position: absolute; */
+  /* top: 50%; */
+  /* transform: translateY(-50%); */
+  margin: 0 auto;
+
 }
 
 main {
@@ -87,12 +93,31 @@ main {
   padding-inline: 2rem;
 }
 
-.div--score {
+h2 {
+  font-size: 1.2rem;
+  padding-bottom: 1.5rem;
+}
+
+.div__score {
   background: linear-gradient(var(--gradient-violet), var(--gradient-persian));
   width: 10rem;
   height: 10rem;
   border-radius: 50%;
   padding-block: 2rem;
+  margin: 0 auto;
+}
+
+.p__score {
+  font-size: 3rem;
+  font-weight: var(--fw-700);
+}
+
+h3 {
+  padding-block: 1rem;
+}
+
+.p__score_results {
+  padding-bottom: 1rem;
 }
 
 aside {
@@ -100,3 +125,48 @@ aside {
   color: var(--text-gray-blue);
   padding: 2rem;
 }
+
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+.div__reaction {
+  color: var(--list-red);
+  background-color: hsla(0, 100%, 67%, 0.1 );
+  padding-block: 0.7rem;
+  border-radius: 0.5rem;
+}
+
+.div__memory {
+  color: var(--list-yellow);
+  background-color: hsla(39, 100%, 56%, 0.1 );
+  padding-block: 0.7rem;
+  border-radius: 0.5rem;
+}
+
+.div__verbal {
+  color: var(--list-teal);
+  background-color: hsla(166, 100%, 37%, 0.1 );
+  padding-block: 0.7rem;
+  border-radius: 0.5rem;
+}
+
+.div__visual {
+  color: var(--list-blue);
+  background-color: hsla(234, 85%, 45%, 0.1 );
+  padding-block: 0.7rem;
+  border-radius: 0.5rem;
+}
+
+span {
+  padding-left: 7rem;
+  color: var(--text-gray-blue);
+}
+

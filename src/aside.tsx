@@ -10,20 +10,25 @@ function Aside() {
         <h2>Summary</h2>
         <ul>
             <li>
-              <div>Reaction</div>
-              <div>80 / 100</div>
+              <div className='div__reaction'><p>Reaction
+              <span>80 / 100</span></p>
+              </div>
+              {/* <div>80 / 100</div> */}
             </li>
             <li>
-              <div>Memory</div>
-              <div>92 / 100</div>
+              <div className='div__memory'><p>Memory
+                <span>92 / 100</span></p>
+              </div>
             </li>
             <li>
-              <div>Verbal</div>
-              <div>61 / 100</div>
+              <div className='div__verbal'><p>Verbal
+                <span>61 / 100</span></p>
+                </div>
             </li>
             <li>
-              <div>Visual</div>
-              <div>72 / 100</div>
+              <div className='div__visual'><p>Visual
+                <span>72 / 100</span></p>
+                </div>
             </li>
         </ul>
           <a href="#">Continue</a>
