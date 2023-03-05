@@ -177,9 +177,13 @@ li {
 }
 
 span {
-  color: var(--text-gray-blue);
+  color: hsl(0, 2%, 55%);
   grid-column: 3/3;
   padding-right: 0.8rem;
+}
+
+b {
+  color: var(--text-gray-blue);
 }
 
 img {
