@@ -116,6 +116,7 @@ h2 {
 .p__score {
   font-size: 3.5rem;
   font-weight: var(--fw-800);
+  padding-top: 0.5rem;
 }
 
 h3 {
@@ -125,6 +126,10 @@ h3 {
 
 .p__score_results {
   padding-bottom: 1rem;
+}
+
+.p__score_circle {
+  color: hsl(0, 2%, 55%);
 }
 
 aside {
