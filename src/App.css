@@ -70,7 +70,7 @@ body {
   font-family: var(--font-family);
   font-size: var(--font-size);
   font-weight: var(--fw-500);
-  background-color: grey;
+  background-color: antiquewhite;
   position: relative;
   min-height: 100dvh;
   min-height: 100vh;
@@ -209,5 +209,26 @@ img {
 
 .button__continue:hover {
   background-color: var(--gradient-royal);
+}
+
+@media(min-width: 51.25rem){
+
+  .App {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0;
+    border-radius: 2rem;
+  }
+
+  main {
+    min-width: 365px;
+    border-radius: 2rem;
+    background-color: var(--text-white);
+  }
+
+  aside {
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+  }
 }
 
