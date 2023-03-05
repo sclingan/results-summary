@@ -14,27 +14,27 @@ function Aside() {
         <h2>Summary</h2>
         <ul>
             <li>
-              <div className='div__reaction'><img src={reaction}></img>
-                <p>Reaction
-                <span>80 / 100</span></p>
+              <div className='div__reaction results'><img src={reaction}></img>
+                <p>Reaction</p>
+                <span>80 / 100</span>
               </div>
             </li>
             <li>
-              <div className='div__memory'><img src={memory}></img>
-                <p>Memory
-                <span>92 / 100</span></p>
+              <div className='div__memory results'><img src={memory}></img>
+                <p>Memory</p>
+                <span>92 / 100</span>
               </div>
             </li>
             <li>
-              <div className='div__verbal'><img src={verbal}></img>
-                <p>Verbal
-                <span>61 / 100</span></p>
+              <div className='div__verbal results'><img src={verbal}></img>
+                <p>Verbal</p>
+                <span>61 / 100</span>
                 </div>
             </li>
             <li>
-              <div className='div__visual'><img src={visual}></img>
-                <p>Visual
-                <span>72 / 100</span></p>
+              <div className='div__visual results'><img src={visual}></img>
+                <p>Visual</p>
+                <span>72 / 100</span>
                 </div>
             </li>
         </ul>

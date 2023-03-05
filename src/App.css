@@ -127,14 +127,19 @@ aside {
 }
 
 ul {
-  display: flex;
-  flex-direction: column;
   list-style-type: none;
   padding: 0;
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr 1fr; */
 }
 
 li {
   margin-bottom: 1rem;
+}
+
+.results {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .div__reaction {
@@ -167,9 +172,11 @@ li {
 
 span {
   color: var(--text-gray-blue);
+  grid-column: 3/3;
 }
 
 img {
-  display: inline;
+  padding-inline: 0.8rem;
+  grid-column: 1/1;
 }
 
