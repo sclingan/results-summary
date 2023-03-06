@@ -62,10 +62,6 @@ p, h1, h2, h3, h4, h5, h6 {
   --font-family: 'Hanken Grotesk', sans-serif;
 }
 
-/* TODO:
-   add drop shadow on desktop
-   adjust card placement on desktop margin right
-*/
 body {
   font-family: var(--font-family);
   font-size: var(--font-size);
@@ -75,15 +71,14 @@ body {
   min-height: 100dvh;
   min-height: 100vh;
 }
-/* try using something other than flex to center card */
+
 .App {
   display: flex;
   flex-direction: column;
   max-width: 370px;
   background-color: var(--text-white);
   margin: 0 auto;
-  padding-bottom: 1rem;;
-
+  padding-bottom: 1rem;
 }
 
 main {
@@ -221,8 +216,9 @@ img {
     padding-bottom: 0;
     border-top-left-radius: 2rem;
     border-bottom-left-radius: 2rem;
+    box-shadow: 1rem 1rem 1rem rgb(148, 151, 151);
   }
-  /* Add box shadow to card */
+
   main {
     min-width: 365px;
     border-radius: 2rem;
@@ -242,6 +238,7 @@ img {
   aside {
     border-top-right-radius: 2rem;
     border-bottom-right-radius: 2rem;
+    box-shadow: 1rem 1rem 1rem rgb(148, 151, 151);
   }
 
   ul {
@@ -249,6 +246,7 @@ img {
   }
 }
 
+/* For smallest screens < 320px */
 @media (max-width: 21.25rem) {
 
   .button__continue {
