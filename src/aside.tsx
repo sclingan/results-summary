@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+// import data for results
 import data from '../src/assets/data.json'
 // import all images
 import reaction from '../public/icon-reaction.svg'
@@ -14,7 +15,6 @@ function Aside() {
   const Visual = data[3].score;
   return (
    <aside>
-    {/* make this a list label?? */}
         <h2>Summary</h2>
         <ul>
             <li>

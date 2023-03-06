@@ -5,10 +5,9 @@ import Aside from './aside'
 function App() {
 
   return (
-    //App is the card
     <div className="App">
       <main>
-        {/* hidden h1 for accessibility */}
+        <h1 className='visually-hidden'>Results Page</h1>
         <h2>Your Result</h2>
         <div className='div__score'>
           <p className='p__score'>76</p>
