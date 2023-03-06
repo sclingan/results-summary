@@ -62,9 +62,9 @@ p, h1, h2, h3, h4, h5, h6 {
   --font-family: 'Hanken Grotesk', sans-serif;
 }
 
-/* 375 x 800 */
 /* TODO:
-   score and span text needs to be lighter
+   add drop shadow on desktop
+   adjust card placement on desktop margin right
 */
 body {
   font-family: var(--font-family);
@@ -81,9 +81,6 @@ body {
   flex-direction: column;
   max-width: 370px;
   background-color: var(--text-white);
-  /* position: absolute; */
-  /* top: 50%; */
-  /* transform: translateY(-50%); */
   margin: 0 auto;
   padding-bottom: 1rem;;
 
@@ -213,22 +210,49 @@ img {
 
 @media(min-width: 51.25rem){
 
+  body {
+    margin-top: 15rem;
+    margin-right: 16rem;
+  }
+
   .App {
     display: flex;
     flex-direction: row;
     padding-bottom: 0;
-    border-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
   }
-
+  /* Add box shadow to card */
   main {
     min-width: 365px;
     border-radius: 2rem;
     background-color: var(--text-white);
+    padding-inline: 3.5rem;
+    padding-block: 3rem;
+  }
+
+  .div__score {
+    margin-bottom: 2rem;
+  }
+
+  h3 {
+    padding-bottom: 1rem;
   }
 
   aside {
     border-top-right-radius: 2rem;
     border-bottom-right-radius: 2rem;
+  }
+
+  ul {
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 21.25rem) {
+
+  .button__continue {
+    padding: 1rem 4rem;
   }
 }
 
