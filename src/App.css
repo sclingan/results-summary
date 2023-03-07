@@ -89,6 +89,7 @@ main {
   text-align: center;
   padding-block: 1rem;
   padding-inline: 2rem;
+  padding-top: 4rem;
 }
 
 .visually-hidden {
@@ -210,7 +211,7 @@ img {
 .button__continue:hover {
   background-color: var(--gradient-royal);
 }
-
+/* Desktop */
 @media(min-width: 51.25rem){
 
   body {
