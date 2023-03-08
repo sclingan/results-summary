@@ -256,7 +256,7 @@ img {
 }
 
 /* For smallest screens < 320px */
-@media (max-width: 21.25rem) {
+@media (max-width: 21.5625rem) {
 
   .button__continue {
     padding: 1rem 4rem;
